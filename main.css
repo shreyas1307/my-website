@@ -1,0 +1,96 @@
+/* Document wide defaults */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #feb236;
+}
+
+ul > li {
+    list-style-type: none;
+}
+
+/* Navigation */
+
+#nav {
+    background: #6b5b95;
+    color: white;
+    width: 100%;
+    font-size: 1.5rem;    
+}
+
+
+#nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: auto 5px;
+    border: none;
+}
+
+#nav > ul > li:hover {
+    color: rgb(197, 197, 197);
+}
+
+/* Main */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    border-bottom: #6b5b95 2px solid;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* main {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#intro {
+    text-align: center;
+    min-height: 300px;
+}
+
+
+#intro2 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#skills > div > ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+    padding: 10px;
+} */
+
+/* Footer */
+
+footer {
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #6b5b95;
+    color: white;
+    margin-top: 100px;
+}
+
+footer > div > ul {
+    display: flex;
+}
+
+
+
+
+
+
