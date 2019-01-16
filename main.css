@@ -7,6 +7,7 @@
 
 body {
     background: #feb236;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
 ul > li {
@@ -32,7 +33,12 @@ ul > li {
     border: none;
 }
 
-#nav > ul > li:hover {
+#nav > ul > li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#nav > ul > li a:hover {
     color: rgb(197, 197, 197);
 }
 
@@ -47,6 +53,11 @@ ul > li {
     border-bottom: #6b5b95 2px solid;
     text-align: center;
     font-size: 1.3rem;
+}
+
+.intro p {
+    line-height: 1.5em;
+    letter-spacing: 0.045em;
 }
 
 /* main {
