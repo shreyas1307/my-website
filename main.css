@@ -183,6 +183,7 @@ i:hover {
 .skills > ul > li:hover {
     background-color: #6b5b95;
     color: #feb236;
+    transform: scale(1.1,1.1)
 }
 
 footer {
@@ -201,4 +202,12 @@ footer > div > ul {
     display: flex;
 }
 
+}
+
+/* End Media Queries */
+
+/* Key Frames and Animations */
+
+#nav > ul > li:hover {
+    transform: scale(1.1,1.1);
 }
