@@ -69,6 +69,7 @@ i:hover {
         font-size: 1rem;
         padding: 15px;
         margin: 15px;
+        border-bottom: #6b5b95 5px solid;
     }
 
     .intro p {
@@ -105,20 +106,20 @@ i:hover {
         color: #feb236;
     }
 
-    footer {
+    .footer {
         /* text-align: center; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         background: #6b5b95;
         color: white;
-        margin-top: 250px;
-        min-height: 100px;
+        /* margin-top: 250px; */
+        min-height: 300px;
     }
     
-    footer > div > ul {
+    .footer > div > ul {
         display: flex;
     }
 
@@ -183,10 +184,11 @@ i:hover {
 .skills > ul > li:hover {
     background-color: #6b5b95;
     color: #feb236;
-    transform: scale(1.1,1.1)
+    transform: scale(1.1,1.1);
+    transition: .5s;
 }
 
-footer {
+.footer {
     /* text-align: center; */
     display: flex;
     flex-wrap: wrap;
@@ -194,12 +196,22 @@ footer {
     justify-content: space-around;
     background: #6b5b95;
     color: white;
-    margin-top: 100px;
-    min-height: 100px;
+    /* margin-top: 100px; */
+    min-height: 300px;
 }
 
-footer > div > ul {
+.footer > div > ul {
     display: flex;
+    justify-content: space-evenly;
+}
+
+.footer > div > ul > li {
+    margin: 25px;
+}
+
+.footer > div > ul > li:hover {
+    transform: scale(1.1,1.1);
+    transition: .5s;
 }
 
 }
@@ -209,15 +221,16 @@ footer > div > ul {
 /* Key Frames and Animations */
 
 #nav > ul > li:hover {
-    transition: 1s;
+    transition: .3s;
     transform: scale(1.1,1.1);
 }
 
 .name {
     position: relative;    
     animation-name: navigation;
-    animation-duration: 2.5s;
+    animation-duration: 1s;
 }
+
 
 @keyframes navigation {
     0% {
@@ -232,7 +245,7 @@ footer > div > ul {
 .strategy, .dev {
     position: relative;
     animation-name: rotate;
-    animation-duration: 2.5s; 
+    animation-duration: 1s; 
 }
 
 @keyframes rotate {
@@ -242,7 +255,7 @@ footer > div > ul {
     }
 
     50% {
-        transform: scale(1.5, 1.5);
+        transform: scale(1.1, 1.1);
     }
 
     100% {
@@ -250,3 +263,4 @@ footer > div > ul {
         transform: scale(1,1);
     }
 }
+
