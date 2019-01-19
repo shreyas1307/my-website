@@ -3,11 +3,11 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
     background: #feb236;
+    box-sizing: border-box;
     font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 
