@@ -30,25 +30,38 @@ a:hover {
 
 
 .navbar {
-    position: relative;
+    /* position: relative; */
     animation-name: appear;
     animation-duration: 1s;
 }
 
+.about {
+    animation-name: appear;
+    animation-duration: 1.5s;
+}
+
 .expertise-1 {
     background-color: #03396c;
+    animation-name: appear;
+    animation-duration: 2s;
 }
 
 .expertise-2 {
     background-color: #03396c;
+    animation-name: appear;
+    animation-duration: 2.5s;
 }
 
 .portfolio {
     background-color: #005b96;
+    animation-name: appear;
+    animation-duration: 3s;
 }
 
 .footer {
     background-color: #2A1757;
+    animation-name: appear;
+    animation-duration: 3.5s;
 }
 
 /* Responsive Layouts */
